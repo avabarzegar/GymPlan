@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monday Workout</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="workout">
+    <h1>Monday Workout</h1>
+    <ul id="exercise-list"></ul>
+  </div>
+  <script src="js/main.js"></script>
+  <script>
+    const exercises = [
+      { name: 'Lat Pulldowns', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=CAwf7n6Luuc' },
+      { name: 'Seated Row', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=GZbfZ033f74' },
+      { name: 'Pull-ups', sets: '3 sets of 8-10 reps', video: 'https://www.youtube.com/watch?v=eGo4IYlbE5g' },
+      { name: 'Bent-over Rows', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=ZlRrIsoDpKg' },
+      { name: 'Bicep Curls', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=ykJmrZ5v0Oo' },
+      { name: 'Hammer Curls', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=TwD-YGVP4Bk' },
+      { name: 'Plank', sets: '3 sets of 1 minute', video: 'https://www.youtube.com/watch?v=pSHjTRCQxIw' },
+      { name: 'Bicycle Crunches', sets: '3 sets of 20 reps', video: 'https://www.youtube.com/watch?v=9FGilxCbdz8' },
+      { name: 'Leg Raises', sets: '3 sets of 15 reps', video: 'https://www.youtube.com/watch?v=JB2oyawG9KI' },
+    ];
+    loadExercises('exercise-list', exercises);
+  </script>
+</body>
+</html>

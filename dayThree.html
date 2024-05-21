@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friday Workout</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="workout">
+    <h1>Friday Workout</h1>
+    <ul id="exercise-list"></ul>
+  </div>
+  <script src="js/main.js"></script>
+  <script>
+    const exercises = [
+      { name: 'Chest Press', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=gRVjAtPip0Y' },
+      { name: 'Incline Dumbbell Press', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=8iPEnn-ltC8' },
+      { name: 'Cable Flyes', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=pD3QEARgqLM' },
+      { name: 'Shoulder Press', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=B-aVuyhvLHU' },
+      { name: 'Lateral Raises', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=kDqklk1ZESo' },
+      { name: 'Tricep Dips', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=0326dy_-CzM' },
+      { name: 'Tricep Pushdowns', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=_W6tQjsVhrA' },
+      { name: 'Russian Twists', sets: '3 sets of 20 reps', video: 'https://www.youtube.com/watch?v=wkD8rjkodUI' },
+      { name: 'Mountain Climbers', sets: '3 sets of 1 minute', video: 'https://www.youtube.com/watch?v=nmwgirgXLYM' },
+      { name: 'Hanging Leg Raises', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=l4kQd9eWclE' },
+    ];
+    loadExercises('exercise-list', exercises);
+  </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tuesday Workout</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="workout">
+    <h1>Tuesday Workout</h1>
+    <ul id="exercise-list"></ul>
+  </div>
+  <script src="js/main.js"></script>
+  <script>
+    const exercises = [
+      { name: 'Squats', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=aclHkVaku9U' },
+      { name: 'Leg Press', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=IZxyjW7MPJQ' },
+      { name: 'Lunges', sets: '3 sets of 12 reps per leg', video: 'https://www.youtube.com/watch?v=QOVaHwm-Q6U' },
+      { name: 'Leg Extensions', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=yR49tT_ImB8' },
+      { name: 'Leg Curls', sets: '3 sets of 12 reps', video: 'https://www.youtube.com/watch?v=ELOCsoDSmrg' },
+      { name: 'Calf Raises', sets: '4 sets of 15 reps', video: 'https://www.youtube.com/watch?v=-M4-G8p8fmc' },
+    ];
+    loadExercises('exercise-list', exercises);
+  </script>
+</body>
+</html>

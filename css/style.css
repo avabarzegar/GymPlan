@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .menu h1 {
+    font-size: 2.5em;
+    color: #4CAF50;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 1.2em;
+  }
+  
+  .menu ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .workout {
+    text-align: center;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .workout h1 {
+    font-size: 2.5em;
+    color: #4CAF50;
+  }
+  
+  .workout ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .workout ul li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .workout ul li .sets {
+    font-weight: bold;
+  }
+  
+  .workout ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 1em;
+  }
+  
+  .workout ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

@@ -24,9 +24,8 @@ body {
   
   .menu ul li {
     display: block;
-    margin: 0 15px;
-    background-color: #ffffffa1;
-    margin: 10px auto;
+    background-color: #ffffffe8;
+    margin: 15px auto;
     padding: 10px;
     border-radius: 5px;
     width: fit-content;
